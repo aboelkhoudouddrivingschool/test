@@ -216,8 +216,8 @@ function showResults() {
   document.getElementById("quizView").classList.add("hidden");
   document.getElementById("resultsView").classList.remove("hidden");
 
-  const phone = localStorage.getItem("quiz_phone") || "03294492 - 03647444 - 79312312";
-  document.getElementById("resultUser").textContent = `Auto Ecole Saliba — ${phone}`;
+  const phone = localStorage.getItem("quiz_phone") || "03377179 - 03938816";
+  document.getElementById("resultUser").textContent = `مدرسة ابو الخدود — ${phone}`;
 
   const passed = quiz.score >= 24;
 
@@ -323,9 +323,9 @@ if (backBtn) {
   });
 }
 
-  const phone = localStorage.getItem("quiz_phone") || "03294492 - 03647444 - 79312312";
+  const phone = localStorage.getItem("quiz_phone") || "03377179 - 03938816";
 
-  document.getElementById("userName").textContent = "Auto Ecole Saliba";
+  document.getElementById("userName").textContent = "مدرسة ابو الخدود";
   document.getElementById("userPhone").textContent = phone;
 
   applyLangUI();
